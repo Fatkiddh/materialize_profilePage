@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+
+    <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+</head>
+
+    <body>
+        <nav class="navbar" role="navigation">
+            <div class="nav-wrapper container ">
+                <a id="logo-container" href="../../index.html" class="brand-logo">Ryan Evans</a>
+                <ul class="right hide-on-med-and-down">
+                <li><a href="../personal/personal.html">Personal</a></li>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav">
+                <li><a href="https://github.com/Fatkiddh">Github</a></li>
+                <li><a href="www.linkedin.com/in/ryan-evans-44686385">Linkdin</a></li>
+                <li><a href="https://twitter.com/Ryanbob07">Twitter</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+<div class="container ">
+         <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="mySubject" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Subject</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="myText" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Textarea</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    
+        <button class="btn waves-effect waves-light" onClick="sendEmail()" name="action">Email Me
+                <i class="material-icons right">send</i>
+        </button>
+  </div>
+</div>
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="../../js/materialize.js"></script>
+        <script src="../../js/init.js"></script>
+        <script src="../../js/indexPage.js"></script>
+        <script src="./contact.js"></script>
+    </body>
+</html>
